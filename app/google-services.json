@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1083527770973",
+    "project_id": "it-department-app-42867",
+    "storage_bucket": "it-department-app-42867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083527770973:android:3457ec72d9bfdb86d6eeb4",
+        "android_client_info": {
+          "package_name": "com.example.itdepatmentapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOjKuo404ksw99BD_pP64_27NFH8C1s1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/facultyPhoto"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/placeholder_image"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Faculty Photo" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/facultyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty Name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/facultyEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty Email"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/facultyPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty Phone"
+            android:textColor="@android:color/holo_blue_dark" />
+    </LinearLayout>
+</LinearLayout>

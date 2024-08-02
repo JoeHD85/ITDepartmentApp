@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IT Department App</string>
+    <string name="email_fab_description">Send email to HOD</string>
+    <string-array name="social_media_options">
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>Instagram</item>
+    </string-array>
+</resources>
+
